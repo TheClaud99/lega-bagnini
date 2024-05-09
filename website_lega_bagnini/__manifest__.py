@@ -1,16 +1,13 @@
-# -*- coding: utf-8 -*-
 {
     "name": "Lega Bagnini",
     "summary": """
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
-    "description": """
-        Long description of module's purpose
-    """,
     "author": "Claudio Mano",
-    "website": "https://www.yourcompany.com",
+    "website": "https://github.com/OCA/server-tools",
     "category": "Website/Theme",
-    "version": "16.0.0.1",
+    "version": "16.0.0.0.1",
+    "license": "LGPL-3",
     # any module necessary for this one to work correctly
     "depends": [
         "base",

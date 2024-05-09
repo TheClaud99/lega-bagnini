@@ -1,27 +1,33 @@
 <odoo>
-    <data>
-        <record id="compile_module" model="website.page">
-            <field name="name">Module</field>
-            <field name="is_published" eval="True" />
-            <field name="key">website_lega_bagnini.compile_module</field>
-            <field name="url">/compile-module</field>
-            <field name="type">qweb</field>
-            <field name="arch" type="xml">
-                <t t-name="website_lega_bagnini.page_compile_module">
+    <record id="compile_module" model="website.page">
+        <field name="name">Module</field>
+        <field name="is_published" eval="True" />
+        <field name="key">website_lega_bagnini.compile_module</field>
+        <field name="url">/compile-module</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="website_lega_bagnini.page_compile_module">
 
-                    <t t-call="website.layout">
-                        <div id="wrap" class="oe_structure">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
 
-                            <iframe src="https://docuseal.claudiomano.duckdns.org/d/pMpZbyXnjUa8mz"
-                                style="border:0px #ffffff none;" name="myiFrame" scrolling="yes"
-                                frameborder="0" marginheight="0px" marginwidth="0px" height="600px"
-                                width="100%" allowfullscreen="true" />
+                        <iframe
+                            src="https://docuseal.claudiomano.duckdns.org/d/pMpZbyXnjUa8mz"
+                            style="border:0px #ffffff none;"
+                            name="myiFrame"
+                            scrolling="yes"
+                            frameborder="0"
+                            marginheight="0px"
+                            marginwidth="0px"
+                            height="600px"
+                            width="100%"
+                            allowfullscreen="true"
+                        />
 
-                        </div>
-                    </t>
-
+                    </div>
                 </t>
-            </field>
-        </record>
-    </data>
+
+            </t>
+        </field>
+    </record>
 </odoo>
