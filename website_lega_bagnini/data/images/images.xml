@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="img_homepage_01" model="ir.attachment">
+            <field name="name">Image main</field>
+            <field name="datas" type="base64"
+                file="website_lega_bagnini/static/src/img/content/main.jpg" />
+            <field name="public" eval="True" />
+        </record>
+
+        <record id="img_homepage_02" model="ir.attachment">
+            <field name="name">Incontro capitaneria</field>
+            <field name="datas" type="base64"
+                file="website_lega_bagnini/static/src/img/content/capitaneria_incontro.svg" />
+            <field name="public" eval="True" />
+        </record>
+    </data>
+</odoo>
