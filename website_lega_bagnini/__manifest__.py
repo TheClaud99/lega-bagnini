@@ -4,7 +4,7 @@
         Short (1 phrase/line) summary of the module's purpose, used as
         subtitle on modules listing or apps.openerp.com""",
     "author": "Claudio Mano",
-    "website": "https://github.com/OCA/server-tools",
+    "website": "https://github.com/OCA/lega-bagnini",
     "category": "Website/Theme",
     "version": "16.0.0.0.1",
     "license": "LGPL-3",
